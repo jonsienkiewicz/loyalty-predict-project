@@ -1,64 +1,64 @@
-\# 🔮 Loyalty Predict - Sistema de Previsão de Engajamento
+# 🔮 Loyalty Predict - Sistema de Previsão de Engajamento
 
 
 
-\*\*Projeto Real de Data Science | Desenvolvido durante mentoria ao vivo com Teo MeWhy\*\*
+**Projeto Real de Data Science | Desenvolvido durante mentoria ao vivo com Teo MeWhy**
 
 
 
-\## 🎯 Problema de Negócio
+## 🎯 Problema de Negócio
 
 Construir um sistema preditivo para identificar usuários com risco de desengajamento na comunidade TMW, permitindo ações proativas de retenção.
 
 
 
-\## 🚀 Minha Contribuição
+## 🚀 Minha Contribuição
 
-\- \[ ] Análise exploratória dos dados de engajamento
+- [ ] Análise exploratória dos dados de engajamento
 
-\- \[ ] Engenharia de features para comportamento de usuários
+- [ ] Engenharia de features para comportamento de usuários
 
-\- \[ ] Desenvolvimento do modelo de machine learning
+- [ ] Desenvolvimento do modelo de machine learning
 
-\- \[ ] Deployment e integração com MLFlow
+- [ ] Deployment e integração com MLFlow
 
-\- \[ ] Criação de API para inferência em tempo real
-
-
-
-\## 🛠 Stack Tecnológica
-
-\- \*\*Linguagem:\*\* Python 3.x
-
-\- \*\*Análise de Dados:\*\* Pandas, NumPy
-
-\- \*\*Machine Learning:\*\* Scikit-learn, MLFlow
-
-\- \*\*Versionamento:\*\* Git \& GitHub
-
-\- \*\*Visualização:\*\* Matplotlib, Seaborn
+- [ ] Criação de API para inferência em tempo real
 
 
 
-\## 📊 Métricas de Sucesso
+## 🛠 Stack Tecnológica
 
-\- \[ ] Acurácia do modelo > 85%
+- **Linguagem:** Python 3.x
 
-\- \[ ] Pipeline de dados automatizado
+- **Análise de Dados:** Pandas, NumPy
 
-\- \[ ] Sistema em produção com monitoramento
+- **Machine Learning:** Scikit-learn, MLFlow
+
+- **Versionamento:** Git & GitHub
+
+- **Visualização:** Matplotlib, Seaborn
 
 
 
-\## 📈 Próximas Etapas
+## 📊 Métricas de Sucesso
 
-\- \[ ] Coleta e limpeza de dados históricos
+- [ ] Acurácia do modelo > 85%
 
-\- \[ ] Desenvolvimento do modelo baseline
+- [ ] Pipeline de dados automatizado
 
-\- \[ ] Validação com dados em tempo real
+- [ ] Sistema em produção com monitoramento
 
-\- \[ ] Deployment na infraestrutura TMW
+
+
+## 📈 Próximas Etapas
+
+- [ ] Coleta e limpeza de dados históricos
+
+- [ ] Desenvolvimento do modelo baseline
+
+- [ ] Validação com dados em tempo real
+
+- [ ] Deployment na infraestrutura TMW
 
 
 
@@ -66,7 +66,7 @@ Construir um sistema preditivo para identificar usuários com risco de desengaja
 
 
 
-\*Este projeto faz parte da minha transição para Cientista de Dados, aplicando conceitos aprendidos em um cenário real com impacto mensurável.\*
+*Este projeto faz parte da minha transição para Cientista de Dados, aplicando conceitos aprendidos em um cenário real com impacto mensurável.*
 
 
 
