@@ -1,70 +1,72 @@
-# \# 🔮 Loyalty Predict - Sistema de Previsão de Engajamento
+\# 🔮 Loyalty Predict - Sistema de Previsão de Engajamento
 
-# 
 
-# \*\*Projeto Real de Data Science | Desenvolvido durante mentoria ao vivo com Teo MeWhy\*\*
 
-# 
+\*\*Projeto Real de Data Science | Desenvolvido durante mentoria ao vivo com Teo MeWhy\*\*
 
-# \## 🎯 Problema de Negócio
 
-# Construir um sistema preditivo para identificar usuários com risco de desengajamento na comunidade TMW, permitindo ações proativas de retenção.
 
-# 
+\## 🎯 Problema de Negócio
 
-# \## 🚀 Minha Contribuição
+Construir um sistema preditivo para identificar usuários com risco de desengajamento na comunidade TMW, permitindo ações proativas de retenção.
 
-# \- \[ ] Análise exploratória dos dados de engajamento
 
-# \- \[ ] Engenharia de features para comportamento de usuários
 
-# \- \[ ] Desenvolvimento do modelo de machine learning
+\## 🚀 Minha Contribuição
 
-# \- \[ ] Deployment e integração com MLFlow
+\- \[ ] Análise exploratória dos dados de engajamento
 
-# \- \[ ] Criação de API para inferência em tempo real
+\- \[ ] Engenharia de features para comportamento de usuários
 
-# 
+\- \[ ] Desenvolvimento do modelo de machine learning
 
-# \## 🛠 Stack Tecnológica
+\- \[ ] Deployment e integração com MLFlow
 
-# \- \*\*Linguagem:\*\* Python 3.x
+\- \[ ] Criação de API para inferência em tempo real
 
-# \- \*\*Análise de Dados:\*\* Pandas, NumPy
 
-# \- \*\*Machine Learning:\*\* Scikit-learn, MLFlow
 
-# \- \*\*Versionamento:\*\* Git \& GitHub
+\## 🛠 Stack Tecnológica
 
-# \- \*\*Visualização:\*\* Matplotlib, Seaborn
+\- \*\*Linguagem:\*\* Python 3.x
 
-# 
+\- \*\*Análise de Dados:\*\* Pandas, NumPy
 
-# \## 📊 Métricas de Sucesso
+\- \*\*Machine Learning:\*\* Scikit-learn, MLFlow
 
-# \- \[ ] Acurácia do modelo > 85%
+\- \*\*Versionamento:\*\* Git \& GitHub
 
-# \- \[ ] Pipeline de dados automatizado
+\- \*\*Visualização:\*\* Matplotlib, Seaborn
 
-# \- \[ ] Sistema em produção com monitoramento
 
-# 
 
-# \## 📈 Próximas Etapas
+\## 📊 Métricas de Sucesso
 
-# \- \[ ] Coleta e limpeza de dados históricos
+\- \[ ] Acurácia do modelo > 85%
 
-# \- \[ ] Desenvolvimento do modelo baseline
+\- \[ ] Pipeline de dados automatizado
 
-# \- \[ ] Validação com dados em tempo real
+\- \[ ] Sistema em produção com monitoramento
 
-# \- \[ ] Deployment na infraestrutura TMW
 
-# 
 
-# ---
+\## 📈 Próximas Etapas
 
-# 
+\- \[ ] Coleta e limpeza de dados históricos
 
-# \*Este projeto faz parte da minha transição para Cientista de Dados, aplicando conceitos aprendidos em um cenário real com impacto mensurável.\*
+\- \[ ] Desenvolvimento do modelo baseline
+
+\- \[ ] Validação com dados em tempo real
+
+\- \[ ] Deployment na infraestrutura TMW
+
+
+
+---
+
+
+
+\*Este projeto faz parte da minha transição para Cientista de Dados, aplicando conceitos aprendidos em um cenário real com impacto mensurável.\*
+
+
 
