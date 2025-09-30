@@ -6,11 +6,11 @@
 
 
 
-Começar um projeto do zero.
+Começar um projeto de Data Science do zero.
 
 
 
-O negócio
+\## O negócio
 
 
 
@@ -37,9 +37,26 @@ Plataforma de Cursos
 
 
 
+\## O que estamos procurando?
+
+
+
+\### Métricas
+
+
+
+DAU - Daily Active Users
+
+
+
+MAU - Monthly Active Users
+
+
+
 \## 💡 Key Insights do Teo
 
-\- 
+* muitas pessoas pecam em não saber a regra do negócio
+* 
 
 
 
@@ -47,7 +64,89 @@ Plataforma de Cursos
 
 
 
+DAU
 
+SELECT substr(DtCriacao,0,11) AS DtDia,
+
+       count(DISTINCT IdCliente) AS DAU
+
+
+
+FROM transacoes
+
+GROUP BY 1
+
+ORDER BY DtDia
+
+
+
+MAU
+
+
+
+WITH tb\_daily AS (
+
+
+
+    SELECT DISTINCT
+
+        date(substr(DtCriacao,0,11)) AS DtDia,
+
+        IdCliente
+
+
+
+    FROM transacoes
+
+    ORDER BY dTdIA
+
+
+
+),
+
+
+
+tb\_distinct\_day AS (
+
+
+
+    SELECT
+
+            DISTINCT DtDia AS dtRef
+
+    FROM tb\_daily
+
+
+
+)
+
+
+
+SELECT  t1.dtRef,
+
+        count(DISTINCT IdCliente) AS MAU,
+
+        count(DISTINCT t2.dtDia) AS qtdeDias
+
+
+
+FROM tb\_distinct\_day AS t1
+
+
+
+LEFT JOIN tb\_daily AS t2
+
+ON t2.DtDia <= t1.dtRef
+
+AND julianday(t1.dtRef) - julianday(t2.DtDia) < 28
+
+
+
+GROUP BY t1.dtRef
+
+
+
+ORDER BY t1.dtRef ASC
 
 
 
@@ -59,11 +158,39 @@ Plataforma de Cursos
 
 
 
+\## ✅ Conquistas de Hoje:
+
+\- \[x] Setup completo do ambiente
+
+\- \[x] Entendimento do business problem: prever engajamento de usuários
+
+\- \[x] Estrutura do projeto criada no GitHub
 
 
 
+\## 🎯 Insights do Negócio:
 
-🚀 Próximos Passos
+\- Engajamento = combinação de frequência e qualidade
+
+\- Dados vêm de múltiplas fontes (pontos, cursos)
+
+\- Métricas de sucesso precisam ser definidas
 
 
+
+\## 🔍 Lacunas Identificadas:
+
+\- SQL para queries complexas (JOINs, subqueries)
+
+\- Necessidade de revisar agregações (GROUP BY)
+
+
+
+\## 🚀 Próximos Passos:
+
+\- \[ ] Estudar SQL focado nas necessidades do projeto
+
+\- \[ ] Revisar query da live amanhã com base nova
+
+\- \[ ] Preparar perguntas para próxima live
 
