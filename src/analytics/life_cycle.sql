@@ -1,59 +1,3 @@
-# Live Notes - 2025-09-29
-
-## 🎯 Objetivo da Sessão
-
-Ciclo de vida do usuário.
-
-Conceitos e mão na massa.
-
-### Anotações ao vivo
-
-Conceito usado todos os dias e muito importante: ciclo de vida do usuário.
-
-No MAU, quem são as 532 pessoas do dia 16/02/2025?
-
-Na idade base do cliente, podemos definir um período em que a pessoa é considerada nova.
-
-Apenas a informação da idade da pessoa na base não importa.
-
-Outra métrica que temos é a recência que é a quantidade de dias desde a ultima interação que a pessoa fez.
-
-Devemos definir nomes para cada um dos períodos do ciclo de vida do cliente.
-
-Ciclo idade base: pessoa chega e tem até 7 dias na plataforma: curiosa
-Ciclo recência: fica depois dos 7 dias: é um fiel
-Quando a pessoa volta depois de um período inativo, é um "reconquistado".
-Quando a pessoa volta a interagir depois do churn (período além do normal de inatividade), ela é um "reborn".
-
-A pessoa só é curiosa nos primeiros 7 dias.
-
-Para criar o ciclo, precisamos da: idade da base, ultima interação e penúltima interação.
-
----
-
-curiosa -> idade < 7
-
-fiel -> recência < 7 e recência anterior < 15
-
-turista -> 7 <= recência <= 14
-
-desencantado -> recência <= 28
-
-zumbi -> recência > 28
-
-reconquistado -> recência < 7 e 14 <= recência anterior <= 28
-
-reborn -> recência < 7 e recência anterior > 28
-
-
-Isso é legal por que aí a gente consegue fazer a gestão da nossa base de cliente olhando para cada momento de vida do nosso cliente. Dessa forma, ao realizar qualquer ação, podemos falar com o grupo  que queremos impactar.
-
----
-
-## códigos
-
-life_cycle.sql
-
 -- curiosa -> idade < 7
 -- fiel -> recência < 7 e recência anterior < 15
 -- turista -> 7 <= recência <= 14
@@ -115,15 +59,6 @@ tb_life_cycle AS (
     ON t1.idCliente = t2.idCliente
 )
 
-SELECT * FROM tb_life_cycle
-
-
-## 💡 Key Insights do Teo
-
-
-❓ Dúvidas para Pesquisar
-
-
-
-🚀 Próximos Passos
-
+SELECT descLifeCycle, count(*)
+FROM tb_life_cycle
+GROUP BY descLifeCycle
