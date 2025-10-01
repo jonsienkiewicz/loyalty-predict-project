@@ -170,19 +170,11 @@ ORDER BY t1.dtRef ASC
 
 \## 🎯 Insights do Negócio:
 
-\- Engajamento = combinação de frequência e qualidade
-
-\- Dados vêm de múltiplas fontes (pontos, cursos)
-
-\- Métricas de sucesso precisam ser definidas
-
 
 
 \## 🔍 Lacunas Identificadas:
 
-\- SQL para queries complexas (JOINs, subqueries)
-
-\- Necessidade de revisar agregações (GROUP BY)
+\- SQL para queries complexas 
 
 
 
